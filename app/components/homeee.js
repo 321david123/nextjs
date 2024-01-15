@@ -27,9 +27,10 @@ return(
       <meta property="og:site_name" content="RuedaTec" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta content="Webflow" name="generator" />
-      <link href="https://ruedatec.com/css/normalize.css" rel="stylesheet" type="text/css" />
-      <link href="https://ruedatec.com/css/webflow.css" rel="stylesheet" type="text/css" />
-      <link href="https://ruedatec.com/css/newone3.webflow.css" rel="stylesheet" type="text/css" />
+      {/* <link href="https://ruedatec.com/css/newone3.webflow.css" rel="stylesheet" type="text/css" /> */}
+      {/* <link href="https://ruedatec.com/css/normalize.css" rel="stylesheet" type="text/css" /> */}
+      {/* <link href="https://ruedatec.com/css/webflow.css" rel="stylesheet" type="text/css" /> */}
+
       <link href="https://fonts.googleapis.com" rel="preconnect" />
       <link
         href="https://fonts.gstatic.com"
