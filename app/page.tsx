@@ -1,5 +1,3 @@
-import favicon from './images/favicon.ico'
-
 export default function Home() {
   
   return (
