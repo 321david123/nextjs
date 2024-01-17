@@ -324,10 +324,10 @@ return(
           <div className="w-layout-vflex">
             <h2 className="text-small margin-bottom-24px">Testimonio</h2>
             <p className="testimonial-text">
-              "RuedaTec, la solución que cambia vidas. Convierte sillas de ruedas
+              &quot;RuedaTec, la solución que cambia vidas. Convierte sillas de ruedas
               manuales en eléctricas y sostenibles mediante su sistema modular.
               Libertad, independencia y tecnología al alcance de todos. Descubre
-              una nueva forma de moverte con RuedaTec"
+              una nueva forma de moverte con RuedaTec&quot;
             </p>
             <div className="heading-3">- Miguel</div>
           </div>
@@ -414,12 +414,12 @@ return(
           </div>
         </div>
         <h3 className="heading-2">
-          "¡Cambiemos juntos el rumbo hacia la inclusión! RuedaTec, el aliado que
-          promueve la igualdad y la autonomía en cada movimiento." - The team
+        &quot;¡Cambiemos juntos el rumbo hacia la inclusión! RuedaTec, el aliado que
+          promueve la igualdad y la autonomía en cada movimiento.&quot; - The team
         </h3>
         <h3 className="heading-2">
-          "Movilidad sostenible, inclusión imparable. Descubre ruedaTec y haz que
-          cada recorrido sea una experiencia llena de libertad." - Jesús
+        &quot;Movilidad sostenible, inclusión imparable. Descubre ruedaTec y haz que
+          cada recorrido sea una experiencia llena de libertad.&quot; - Jesús
         </h3>
       </section>
       {/* <div className="section-footer">
@@ -514,7 +514,7 @@ return(
           </div>
         </div>
       </div> */}
-    <script src='https://ruedatec.com/js/webflow.js'></script>
+    {/* <script no-async src='https://ruedatec.com/js/webflow.js'></script> */}
     </>
   )
 }
