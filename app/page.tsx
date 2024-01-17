@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import favicon from './images/favicon.ico'
 
 export default function Home() {
   
@@ -18,7 +18,6 @@ export default function Home() {
       <meta property="og:title" content="RuedaTec" />
       <meta property="og:site_name" content="RuedaTec" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta content="Webflow" name="generator" />
       <link href="https://ruedatec.com/css/webflow.css" rel="stylesheet" type="text/css" />
       <link href="https://ruedatec.com/css/newone3.webflow.css" rel="stylesheet" type="text/css" />
       <link href="https://ruedatec.com/css/normalize.css" rel="stylesheet" type="text/css" />
@@ -28,10 +27,10 @@ export default function Home() {
         rel="preconnect"
         crossOrigin="anonymous"
       />
-      <link href="./images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+      <link rel="shortcut icon" type="image/x-icon" />
       {/* Google tag (gtag.js) */}
-      <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
-      <link href="./images/favicon.ico" rel="apple-touch-icon" />
+      <link href="https://321david123.github.io/images/favicon.ico" rel="icon" type="image/x-icon" />
+      <link href="https://321david123.github.io/images/favicon.ico" rel="apple-touch-icon" />
       {/* the changes are : copy all the header and change it for the one that we have right now using, you have to change the links from 
       the logo thats all the way down in this code so in the footer theres is thi logo from instagram and you have to delete it. Then the images that change their resolution when a pixel screen change
     so you have to delete them and its basically all for now, keep this text for other people to underestand the standards */}
