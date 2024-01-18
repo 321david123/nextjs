@@ -1,6 +1,7 @@
 import image1 from '../images/Cell-Background-1_1Cell Background 1.webp'
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Script from 'next/script';
 
 export const Homeee = () => {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ return(
     <>
       <meta charSet="utf-8" />
       <title>RuedaTec</title>
-          <script src='https://ruedatec.com/js/webflow.js' async ></script>
+
       <meta
         name="description"
         content="Haciendo realidad la independencia a través de la innovacion - RuedaTec"
@@ -510,12 +511,14 @@ return(
                 <a href="#" className="footer-link terms">
                   Terminos de uso
                 </a>
-              </div>
+              </div>  
             </div>
           </div>
         </div>
       </div> */}
-
+          {/* <script async src='https://ruedatec.com/js/webflow.js' ></script> */}
+          {/* <Script async src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64a6075f43011bbeb7a0db92" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></Script>
+          <Script async src='https://ruedatec.com/js/webflow.js' ></Script> */}
     </>
   )
 }
