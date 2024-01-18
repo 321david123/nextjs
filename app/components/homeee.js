@@ -14,6 +14,7 @@ return(
     <>
       <meta charSet="utf-8" />
       <title>RuedaTec</title>
+          <script src='https://ruedatec.com/js/webflow.js' async ></script>
       <meta
         name="description"
         content="Haciendo realidad la independencia a través de la innovacion - RuedaTec"
@@ -514,7 +515,7 @@ return(
           </div>
         </div>
       </div> */}
-    {/* <script no-async src='https://ruedatec.com/js/webflow.js'></script> */}
+
     </>
   )
 }
