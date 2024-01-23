@@ -86,7 +86,7 @@ export const Footer = () => (
           Politica de privacidad
         </a>
         <a href="#" className="footer-link terms">
-          Terminos de uso
+          Terminos de uso.
         </a>
       </div>
     </div>
