@@ -83,7 +83,7 @@ export const Footer = () => (
       </div>
       <div className="terms-links">
         <a href="#" className="footer-link terms last">
-          Politica de privacidad
+          Politica de privacidad.
         </a>
         <a href="#" className="footer-link terms">
           Terminos de uso.
