@@ -1,6 +1,7 @@
 import Script from "next/script"
 import Image from "next/image"
-import image2 from './images/Cell-Background-1_1-p-3200.jpg'
+import head1 from './images/head1.jpg'
+import head2 from './images/head2.jpeg'
 export default function Home() {
   
   return (
@@ -88,7 +89,7 @@ export default function Home() {
                 </div>
                 <h3 className="bottom-heading" />
                 <Image
-                  src={image2}
+                  src={head1}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
                   // width={480}
@@ -109,11 +110,11 @@ export default function Home() {
               className="w-layout-cell cell-2"
             >
               <a href="#" className="cell-content link w-inline-block">
-                <img
-                  src="https://ruedatec.com/images/Cell-Background-2_1Cell-Background-2.webp"
+                <Image
+                  src={head2}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-2_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-2_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-2_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-2_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-2_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-2_1-p-2600.jpg 2600w"
+                  // srcSet="https://ruedatec.com/images/Cell-Background-2_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-2_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-2_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-2_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-2_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-2_1-p-2600.jpg 2600w"
                   alt=""
                   className="background-image"
                 />
