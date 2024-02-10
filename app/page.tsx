@@ -416,7 +416,7 @@ export default function Home() {
           cada recorrido sea una experiencia llena de libertad.&quot; - Jesús
         </h3>
       </section>
-      {/* <div className="section-footer">
+      {/* <div className="section-footer">n
         <div className="container">
           <div className="footer-content-wrapper">
             <a href="#" className="brand w-nav-brand" />
