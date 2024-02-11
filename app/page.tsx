@@ -2,6 +2,7 @@ import Script from "next/script"
 import Image from "next/image"
 import head1 from './images/head1.jpg'
 import head2 from './images/head2.jpeg'
+import head3 from './images/head3.jpeg'
 export default function Home() {
   
   return (
@@ -192,12 +193,12 @@ export default function Home() {
                     </svg>
                   </div>
                 </div>
-                <img
-                  src="https://ruedatec.com/images/Cell-Background-3_1Cell-Background-3.webp"
+                <Image
+                  src={head3}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-3_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-3_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-3_1-p-1080.jpg 1080w,https://ruedatec.com/images/Cell-Background-3_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-3_1-p-2000.jpg 2000w"
-                  alt=""
+                  // srcSet="https://ruedatec.com/images/Cell-Background-3_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-3_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-3_1-p-1080.jpg 1080w,https://ruedatec.com/images/Cell-Background-3_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-3_1-p-2000.jpg 2000w"
+                  alt="head image"
                   className="background-image"
                 />
               </a>
