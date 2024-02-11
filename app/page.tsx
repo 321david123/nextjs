@@ -88,7 +88,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <h3 className="bottom-heading" />
-                <Image
+                <Image  
                   src={head1}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
