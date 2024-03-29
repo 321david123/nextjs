@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from "./components/Home";
 import Inicios from "./components/iniciasesion";
 import Logueo from "./components/Logueo";
+import modelos from './components/modelos'
 import { Homeee } from "./components/homeee";
 import { Footer } from './components/footer'
 import firebaseApp from "./credenciales";

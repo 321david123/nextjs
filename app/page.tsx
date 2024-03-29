@@ -1,8 +1,11 @@
+'use client'
 import Script from "next/script"
 import Image from "next/image"
 import head1 from './images/head1.jpg'
 import head2 from './images/head2.jpeg'
 import head3 from './images/head3.jpeg'
+import Modelos from './components/modelos'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 export default function Home() {
   
   return (
@@ -53,18 +56,27 @@ export default function Home() {
             </h1>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
-            <a href="" className="nav-link w-nav-link">
-              <button className='nav-link w-nav-link' style={{padding: '0'}} >Modelos</button>
-            </a>
-            <a href="./otros.html" className="nav-link w-nav-link">
+            <Router>
+            <Link to="./components/modelos.js" className="nav-link w-nav-link">
+              <button className='nav-link w-nav-link' style={{padding: '0'}}>Modelos</button>
+            </Link>
+            <Link to="./otros.html" className="nav-link w-nav-link">
               Conócenos
-            </a>
-            <a href="./otros.html" className="nav-link w-nav-link">
+            </Link>
+            <Link to="./otros.html" className="nav-link w-nav-link">
               Prototipo
-            </a>
-            <a href="./otros.html" className="nav-link w-nav-link">
+            </Link>
+            <Link to="./otros.html" className="nav-link w-nav-link">
               Contáctanos
-            </a>
+            </Link>
+
+
+            <Routes>
+              <Route path="/components/modelos.js" element={<Modelos/>}></Route>
+            </Routes>
+
+
+            </Router>
           </nav>
           <div className="menu-button w-nav-button">
             <div className="w-icon-nav-menu" />
