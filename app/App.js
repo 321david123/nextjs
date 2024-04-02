@@ -36,8 +36,9 @@ function App() {
           </ul>
         </nav> */}
         <Routes>
+            
             <Route path="/modelos" element={<Modelos />} />
-            <Route path="/" element={<><Homeee></Homeee><Footer></Footer></>} />
+            <Route path="/" element={<><Home></Home></>} />
         </Routes>
       </div>
     </Router>
