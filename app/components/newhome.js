@@ -1,10 +1,10 @@
 'use client'
 import Script from "next/script"
 import Image from "next/image"
-import head1 from './images/head1.jpg'
-import head2 from './images/head2.jpeg'
-import head3 from './images/head3.jpeg'
-import Modelos from './components/modelos'
+import head1 from '../images/head1.jpg'
+import head2 from '../images/head2.jpeg'
+import head3 from '../images/head3.jpeg'
+import Modelos from './modelos'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 export const Newhome = () => {
@@ -75,7 +75,7 @@ export const Newhome = () => {
             </h1>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
-            <Router>
+            {/* <Router>
               <Link to="/components/modelos.js" className="nav-link w-nav-link">
                 <button
                   className="nav-link w-nav-link"
@@ -100,7 +100,7 @@ export const Newhome = () => {
                   element={<Modelos />}
                 ></Route>
               </Routes>
-            </Router>
+            </Router> */}
           </nav>
           <div className="menu-button w-nav-button">
             <div className="w-icon-nav-menu" />
